@@ -3,8 +3,24 @@
   height: 300px;
   background: red;
 }*/
-div { 
+.button a, .buttonBack a { 
   text-align: center;
+  text-decoration: none;
+  border: 1px solid blue;
+  min-width: 100px;
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 15px;
  }
+.button a:hover, .buttonBack a:hover {
+  background-color: blue;
+  color: white;
+ }
+
+.buttonBack {
+  background: url(./left.png) no-repeat top right;
+}
+
 
 
